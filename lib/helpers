@@ -3,7 +3,7 @@
 function install_dotnet() {
   local BUILD_DIR="$1"
   local CACHE_DIR="$2"
-  local CORE_VER="$5"
+  local CORE_VER="$3"
   local ZIP_NAME="dotnet-${CORE_VER}.tar.gz"
   
   echo "Dotnet sdk: $CORE_VER"
